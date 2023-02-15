@@ -1,7 +1,75 @@
 * {
-  margin:0;
-  padding:0;
+  margin:2px;
+  padding:2px;
   box-sizing: border-box;
 }
 
 /* ||||||||||||||||||||| Add CSS code under this line |||||||||||||||||||| */
+
+#logo{
+  float: center;
+  height: 50px;
+  width: 50px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+}
+
+#navbar {
+  display: block;
+  flex-direction: column;
+  width: 200px;
+  height: 100vh; 
+}
+
+.nav_link {
+  display: block;
+  margin: 10px 0;
+}
+
+
+
+#navbar a{
+  display: left;
+}
+
+.verticalLine {
+  background-color: black;
+  padding: 1px;
+  height: 100%vh;
+  
+}
+
+.main_sec{
+  width: 1000px;
+  margin: 10px;
+  clear: both;
+}
+pre {
+  font-family: Consolas,"courier new";
+  text-align: left;
+  background-color: limegreen;
+  margin-left: 20px;
+  
+  font-size: 105%;
+}
+
+#ulelements{
+  margin-left: 80px;
+}
+
+
+img{
+  float: left;
+  height: 30px;
+  width: 30px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
